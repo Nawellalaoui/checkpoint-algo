@@ -1,0 +1,21 @@
+ALGORITHM algorithm_name
+VAR
+    arr : ARRAY_OF integerBEGIN;
+
+    val:INTEGER
+    sm:INTEGER
+    i:INTEGER
+BEGIN
+    read(N)
+    FOR i FROM 1 TO N STEP 1 DO
+        read(arr[i] )
+    END_FOR
+    
+    sm:=0;
+    FOR i FROM 1  TO N STEP 1  DO
+        sm:=sm+arr[i]
+    END_FOR
+    write(sm);
+
+    
+END

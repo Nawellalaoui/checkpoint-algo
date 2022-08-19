@@ -1,0 +1,8 @@
+        ALGORITHM algorithm_name
+    VAR
+            
+            i,j:INTEGER
+            set:ARRAY_OF INTEGER [N][M];
+    BEGIN
+    FOR i FROM min TO max STEP step  DO
+    END_FOR

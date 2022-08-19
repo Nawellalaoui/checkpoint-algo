@@ -1,0 +1,22 @@
+        ALGORITHM algorithm_name
+    VAR
+            senteces:STRING[100]
+            i:INTEGER
+    BEGIN
+        sentences:="Being a gentleman is nit a way of speaking or a 
+        way of dressing .it is simply feeling good about yourself"
+        FOR i FROM 1 TO sentences.lenght STEP 1  DO
+            IF (sentences[i]="a") THEN
+                senteces[i]:="b"
+              
+                ELSE
+                IF (sentences[i]="i") THEN
+                   senteces[i]:="z"
+                    
+                END_IF
+                END_IF
+                
+            END_IF
+        END_FOR
+        write (sentences);
+    END

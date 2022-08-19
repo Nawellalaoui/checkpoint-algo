@@ -1,0 +1,22 @@
+ALGORITHM matrDisplay
+VAR
+    i,j:INTEGER;
+    matr:ARRAY_OF INTEGER[N][M];
+BEGIN
+
+    FOR i FROM 1 TO N STEP 1 DO
+        FOR j FROM 1 TO M STEP 1  DO
+            write("give me the value matr[",i,"][",j,"]");
+            read(matr[i][j]);
+        END_FOR
+    END_FOR
+
+    FOR i FROM 1 TO N STEP 1 DO
+        FOR j FROM 1 TO M STEP 1  DO
+            IF (i=j) THEN
+                write(matr[i][j]);
+            END_IF
+        END_FOR
+    END_FOR
+END
+

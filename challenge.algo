@@ -1,0 +1,36 @@
+ALGORITHM challenge algo
+VAR
+    arr : ARRAY_OF INTEGER[15];
+    len, i:INTEGER
+    bool : BOOLEAN
+BEGIN
+    write("give me the arry length");
+
+
+    
+    read(len);
+    FOR i FROM 1 TO len STEP 1 DO
+        read(arr[i]);
+
+    END_FOR
+
+    bool:=true
+    FOR i FROM 1 TO arr.length STEP step 1 DO
+        IF ( arr[i] <= 0) THEN
+            bool := false
+        END_IF
+
+    END_FOR
+
+
+    IF ( arr[i] >= 1) THEN
+        wirte ()
+    ELSE
+    ( arr[i] <= 0)
+        bool := false
+    END_IF
+
+
+
+
+END

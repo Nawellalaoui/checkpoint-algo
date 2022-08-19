@@ -1,0 +1,18 @@
+ALGORITHM algorithm_name
+    VAR
+
+        arr : ARRAY_OF INTEGER[15];
+        len, i:INTEGER
+        check : BOOLEAN
+    BEGIN
+        write("enter the the arry length");
+        read(len);
+        
+        FOR i FROM 1 TO len STEP 1 DO
+            read(arr[i]);
+
+        END_FOR
+
+BEGIN
+
+END
